@@ -1,0 +1,123 @@
+/*Custom CSS for the website */
+
+body {
+	--page-gutter: 1em;
+	--border-width: 0px;
+	
+	--off-white: #E8E6EE;
+	--light-purple: #E0D7EE;
+	--dark-green: #52522C;
+	
+	--bg1: var(--off-white);
+	--text1: var(--dark-green);
+	
+	--bg2: var(--light-purple);
+	--text2: var(--dark-green);
+
+	--bg3: var(--dark-green);
+	--text3: var(--off-white);
+
+	--title-font: Didot, Garamond, serif;
+	--main-font: Futura, sans-serif;
+}
+@media print, screen and (min-width: 40em) {
+	body {
+		--page-gutter: 2em;
+		--border-width: 1px;
+	}
+}
+@media print, screen and (min-width: 64em) {
+	body {
+		--page-gutter: 4em;
+	}
+}
+
+
+body {
+	font-family: var(--main-font);
+	background-color: var(--bg1);
+	color: var(--text1);
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: var(--title-font);
+	font-weight: 400;
+}
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 3.2rem;
+}
+h3 {
+	font-size: 2.4rem;
+}
+h4 {
+	font-size: 2rem;
+}
+
+
+.top-bar,
+.grid-container.full > .grid-y > .cell {
+	padding-left: var(--page-gutter);
+	padding-right: var(--page-gutter);
+}
+
+.section-style-1 {
+	color: var(--text1);
+	background-color: var(--bg1);
+}
+.section-style-2 {
+	color: var(--text2);
+	background-color: var(--bg2);
+}
+.section-style-3 {
+	color: var(--text3);
+	background-color: var(--bg3);
+}
+
+.cell.divider {
+  border-left: var(--text3) var(--border-width) solid;
+}
+.section-style-1 .cell.divider {
+  border-left: var(--text1) var(--border-width) solid;
+}
+.section-style-2 .cell.divider {
+  border-left: var(--text2) var(--border-width) solid;
+}
+.section-style-3 .cell.divider {
+  border-left: var(--text3) var(--border-width) solid;
+}
+
+
+
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+top-bar a {
+	text-decoration: none;
+}
+a:hover {
+	color: inherit;
+	text-decoration: underline;
+	filter: brightness(180%);
+}
+
+button, 
+a.button {
+	text-decoration: none;
+	color: var(--off-white);
+	background-color: var(--dark-green);
+	padding: 12px 24px;
+}
+button:hover, 
+button:focus, 
+a.button:hover,
+a.button:focus {
+	color: var(--off-white);
+	background-color: var(--dark-green);
+	filter: brightness(180%);
+}
+
+
