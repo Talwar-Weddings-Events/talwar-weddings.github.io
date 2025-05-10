@@ -17,10 +17,17 @@
 
   <!-- Top Bar -->
   <div class="top-bar">
-    <div class="top-bar-left hide-for-small-only">
-      <h4>Talwar Weddings & Events</h4>
+    <div class="top-bar-left">
+      <h4 class="show-for-large">Talwar Weddings & Events</h4>
+      <ul class="menu horizontal simple hide-for-large">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <div class="top-bar-right">
+    <div class="top-bar-right show-for-large">
       <ul class="menu horizontal simple">
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -38,7 +45,8 @@
         <h1>Talwar Weddings & Events</h1>
         <div class="grid-x grid-padding-x">
           <div class="cell large-8">
-            <img src="media/hero-large.jpg">
+            <img src="media/hero-large.jpg" class="show-for-medium" loading="lazy">
+            <img src="media/hero-large-mobile.jpg" class="hide-for-medium" loading="lazy">
           </div>
           <div class="cell large-4">
             <p>
