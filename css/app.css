@@ -121,3 +121,6 @@ a.button:focus {
 }
 
 
+img {
+	object-fit: cover;
+}
