@@ -6,7 +6,9 @@ body {
 	
 	--off-white: #E8E6EE;
 	--light-purple: #E0D7EE;
-	--dark-green: #52522C;
+/*	--dark-green: #52522C;*/
+	--dark-green: #374E2E;
+	--darker-green: #2C3F25;
 	
 	--bg1: var(--off-white);
 	--text1: var(--dark-green);
@@ -95,7 +97,7 @@ a {
 	color: inherit;
 	text-decoration: underline;
 }
-top-bar a {
+.top-bar a {
 	text-decoration: none;
 }
 a:hover {
@@ -107,8 +109,8 @@ a:hover {
 button, 
 a.button {
 	text-decoration: none;
-	color: var(--off-white);
-	background-color: var(--dark-green);
+	color: var(--text3);
+	background-color: var(--bg3);
 	padding: 12px 24px;
 }
 button:hover, 
