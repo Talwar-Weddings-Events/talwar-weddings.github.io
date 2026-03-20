@@ -1,7 +1,7 @@
 # Website for [TalwarWeddings.com](https://talwarweddings.com)
 
 
-## PDF Compression
+**PDF Compression**
 
 1. Open in Preview > File > Export...
 2. Save with settings:
