@@ -91,6 +91,12 @@ h4 {
   border-left: var(--text3) var(--border-width) solid;
 }
 
+.cell.section-style-2, 
+.cell.section-style-1 
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 
 a {
